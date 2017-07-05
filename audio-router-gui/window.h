@@ -3,7 +3,6 @@
 #include "dialog_main.h"
 #include "formview.h"
 #include "bootstrapper.h"
-#include "licensing.h"
 #include <memory>
 
 #define WIN_WIDTH 970//400
@@ -17,7 +16,6 @@ private:
 public:
     dialog_main* dlg_main;
     formview* form_view;
-    dialog_licensing* license;
     bootstrapper* bootstrap;
 
     explicit window(bootstrapper*);
